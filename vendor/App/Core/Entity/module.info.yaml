@@ -1,0 +1,4 @@
+Module:
+  namespace: App\Core\Entity;
+  name: Entity
+  description: Module entity

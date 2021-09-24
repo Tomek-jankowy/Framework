@@ -1,0 +1,31 @@
+api.index:
+    path: /api
+    namespace: App\Core\Api\Controller\ApiController
+    function: apiIndex
+api.get_user:
+    path: /api/get-user
+    namespace: App\Core\Api\Controller\ApiController
+    function: get-user
+index:
+    path: /
+    namespace: App\Core\AppCore\Controller\MainPageController
+    function: index
+    value: {  }
+not.found:
+    path: ''
+    namespace: App\Core\AppCore\Controller\MainPageController
+    function: notFound
+    value: {  }
+test:
+    path: /test/%
+    namespace: App\Core\AppCore\Controller\MainPageController
+    function: test
+user.index:
+    path: /user
+    namespace: App\Module\Users\Controller\UserController
+    function: userIndex
+    value: {  }
+views.test:
+    path: /test/views/%
+    namespace: App\Module\Views\Controller\ViewsController
+    function: test

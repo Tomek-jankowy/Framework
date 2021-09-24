@@ -1,0 +1,5 @@
+user.index:
+  path: /user
+  namespace: App\Module\Users\Controller\UserController
+  function: userIndex
+  value: []

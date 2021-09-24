@@ -1,0 +1,4 @@
+Module:
+  namespace: App\TemplateSystem
+  name: TemplateSystem
+  description: Module to compilator template

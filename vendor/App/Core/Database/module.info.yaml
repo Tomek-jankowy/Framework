@@ -1,0 +1,4 @@
+Module:
+  namespace: App\Core\Database
+  name: Database
+  description: Module to connection with database 

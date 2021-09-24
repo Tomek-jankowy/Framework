@@ -1,0 +1,11 @@
+database: ../vendor/App/Core/Database/
+entity: ../vendor/App/Core/Entity/
+routing: ../vendor/App/Core/Routing/
+settingsmodule: ../vendor/App/Core/Settings/
+appexception: ../vendor/App/Core/AppException/
+api: ../vendor/App/Core/Api/
+appcore: ../vendor/App/Core/AppCore/
+http: ../vendor/App/Core/Http/
+users: ../vendor/App/Module/Users/
+views: ../vendor/App/Module/Views/
+tomplate: ../vendor/App/Module/Tomplate/

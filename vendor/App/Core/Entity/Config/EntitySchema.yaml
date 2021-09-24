@@ -1,0 +1,9 @@
+EntityType:
+  etid:
+    type: "INT"
+    not null: True
+  EntityTypeName:
+    type: "VARCHAR"
+    lenght: "255"
+    not null: True
+  primary: etid

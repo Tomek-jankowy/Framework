@@ -1,0 +1,4 @@
+views.test:
+  path: /test/views/%
+  namespace: App\Module\Views\Controller\ViewsController
+  function: test

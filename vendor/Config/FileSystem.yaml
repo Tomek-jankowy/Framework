@@ -1,0 +1,30 @@
+# machine_name:
+#   name: ''
+#   path: ''
+settingsdb:
+  name: SettingsDB
+  path: /SettingsDB.yaml
+filesystem:
+  name: FileSystem
+  path: /FileSystem.yaml
+moduleinfo:
+  name: Modules.info
+  path: /Modules.info.yaml
+settings:
+  name: Settings
+  path: /Settings.yaml
+mainrouting:
+  name: MainRouting
+  path: /MainRouting.yaml
+modulelist:
+  name: module.list
+  path: /module.list.yaml
+appcore_schema:
+  name : AppCoreSchema.yaml
+  path: /../App/Core/AppCore/Config/AppCoreSchema.yaml
+entity_schema:
+  name : EntitySchema.yaml
+  path: /../App/Core/Entity/Config/EntitySchema.yaml
+template-list:
+  name : template.yaml
+  path: /../App/Module/Tomplate/Config/template.yaml

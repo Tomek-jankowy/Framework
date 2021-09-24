@@ -1,0 +1,10 @@
+# routing.name:
+#   path: path
+#   namespace: namespace
+#   function: function_name
+
+admin.index:
+  path: /admin
+  namespace: App\Module\Admin\Controller\AdminController
+  function: adminIndex
+  value: []

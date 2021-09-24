@@ -1,0 +1,79 @@
+# Core:
+#   ModuleName:
+#     namespace: App\Core\Database\
+#     enable: true
+#     routing: false
+
+# Modules:
+#   ModuleName:
+#     namespace: App\Core\Database\
+#     enable: true
+#     routing: false
+
+Core:
+  Database:
+    namespace: App\Core\Database\
+    enable: true
+    routing: false
+
+  Entity:
+    namespace: App\Core\Entity\
+    enable: true
+    routing: false
+
+  Routing:
+    namespace: App\Core\Routing\
+    enable: true
+    routing: false
+
+  SettingsModule:
+    namespace: App\Core\Settings\
+    enable: true
+    routing: false
+
+  AppException:
+    namespace: App\Core\AppException\
+    enable: true
+    routing: false
+
+  Api:
+    namespace: App\Core\Api\
+    enable: true
+    routing: true
+
+  AppCore:
+    namespace: App\Core\AppCore\
+    enable: true
+    routing: true
+
+  Http:
+    namespace: App\Core\Http\
+    enable: true
+    routing: false
+
+  Hook:
+    namespace: App\Core\Hook\
+    enable: false
+    routing: false
+
+Modules:
+  Admin:
+    namespace: App\Module\Admin\
+    enable: false
+    routing: true
+  Users:
+    namespace: App\Module\Users\
+    enable: true
+    routing: true
+  Views:
+    namespace: App\Module\Views\
+    enable: true
+    routing: true
+  Tomplate:
+    namespace: App\Module\Tomplate\
+    enable: true
+    routing: false
+  CustomMenu:
+    namespace: App\Module\CustomMenu\
+    enable: true
+    routing: false

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title> {[ title ]}</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content=" {[ pageDescription ]}"/>
+        <meta name="author" content="Tomasz Jankowy" />
+        <meta name="copyright" content="Copyright owner" />
+        <meta name="robots" content="noindex"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta name="language" content="{[ language ]}">
+
+        {{ for cssArray as name => path }}
+            <link rel="stylesheet" type="text/css" href="{[ path ]}">
+        {{ endfor }}
+    </head>
+    <body>
+        {% BLOCK menu %}
+        {% BLOCK body %}
+        {% BLOCK footer %}
+    </body>
+        {{ for jsArray as name => path }}
+            <script type="text/javascript" src="{[ path ]}" ></script>
+        {{ endfor }}
+</html>

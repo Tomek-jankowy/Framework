@@ -1,0 +1,11 @@
+BizzenTheme:
+  hierarchy:
+    1: page
+    3: BLOCK menu
+    2: BLOCK body
+    4: BLOCK footer
+  css:
+    page: /Theme/BizzenTheme/css/page.css
+    menu: /Theme/BizzenTheme/css/menu.css
+  js:
+    main: /Theme/BizzenTheme/js/main.js

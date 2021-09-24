@@ -1,0 +1,4 @@
+Module:
+  namespace: App\Core\Http
+  name: Http
+  description: The module has advanced network functions

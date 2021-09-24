@@ -1,0 +1,7 @@
+schema:
+    entity: true
+    appcore: true
+    users: false
+theme:
+    BizzenTheme: true
+    SimpleTheme: false

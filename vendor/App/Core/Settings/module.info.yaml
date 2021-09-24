@@ -1,0 +1,4 @@
+Module:
+  namespace: App\Core\Settings
+  name: SettingsModule
+  description: Module entity

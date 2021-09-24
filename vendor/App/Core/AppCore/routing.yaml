@@ -1,0 +1,16 @@
+index:
+  path: /
+  namespace: App\Core\AppCore\Controller\MainPageController
+  function: index
+  value: []
+
+not.found:
+  path: ''
+  namespace: App\Core\AppCore\Controller\MainPageController
+  function: notFound
+  value: []
+
+test:
+  path: /test/%
+  namespace: App\Core\AppCore\Controller\MainPageController
+  function: test

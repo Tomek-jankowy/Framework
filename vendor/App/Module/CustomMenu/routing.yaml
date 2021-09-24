@@ -1,0 +1,4 @@
+user.index:
+  path: /admin/setings
+  namespace: App\Module\CustomMenu\Controller\CustomMenuController
+  function: settings

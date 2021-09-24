@@ -1,0 +1,8 @@
+api.index:
+  path: /api
+  namespace: App\Core\Api\Controller\ApiController
+  function: apiIndex
+api.get_user:
+  path: /api/get-user
+  namespace: App\Core\Api\Controller\ApiController
+  function: get-user

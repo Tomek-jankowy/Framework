@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.content .content-notfound{
+    text-align: center;
+    font-size: 16px;
+}
+.content .content-notfound span:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}

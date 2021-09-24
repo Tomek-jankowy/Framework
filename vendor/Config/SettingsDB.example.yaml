@@ -1,0 +1,7 @@
+Database:
+  Main:
+    userName:
+    passowrd:
+    host:
+    databasename:
+    engine: mysql

@@ -1,0 +1,13 @@
+Settings:
+  set_id:
+    type: "INT"
+    not null: True
+  SettingsName:
+    type: "VARCHAR"
+    lenght: "255"
+    not null: True
+  SettingsValue:
+    type: "VARCHAR"
+    lenght: "255"
+    not null: true
+  primary: set_id
